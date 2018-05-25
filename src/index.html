@@ -6,27 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Descifrados</h1>
-      <label for="numero">Tu n° de la suerte</label>
-      <br/>
-      <input type="text" size="10" maxlength="10" value="" name="numero">
-      <br/>
-      
-      <label for="ingMensaje">Ingresa tu mensaje</label>
-      <br/>
-      <textarea id="ingMensaje" name="ingMensaje" rows="10" cols="50"/>
-      <br/>
-      
-      <label for="desMensaje">Descubre tu mensaje</label>
-      <br/>
-      <textarea id="desMensaje" name="desMensaje" rows="10" cols="50"/>
-      <br/>
-      
-      <br/>
-      
-      <input type="button" value="ocultar">
-      <input type="button" value="descifrar">
 
+    <header>
+      <h1 class="titulo">Descifrados</h1>      
+    </header>
+
+    <section id="initial" class="initial">
+      <div id="cifrados" class="cifrados" >
+        <div>
+          <label for="numero">Tu n° de la suerte</label>
+          <input id="txtOffset" type="text" size="10" maxlength="2" value="" name="numero">
+        </div>
+        <div>
+          <textarea id="ingMensaje" name="ingMensaje" rows="10" cols="50" placeholder="Ingresa tu mensaje aqui ..." ></textarea>
+        </div>
+
+        <div>
+          <textarea id="desMensaje" name="desMensaje" rows="10" cols="50" placeholder="Descubre tu mensaje aqui ..." ></textarea>
+        </div>
+
+      </div>
+      <div id="botones" class="botones">
+          <input id="btnCifrar" type="button" value="Cifrar">
+          <input id="btnDescifrar" type="button" value="Descifrar">
+          <input id="btnLimpiar" type="button" value="Limpiar">    
+      </div>
+
+    </section>
       
     <div id="root"></div>
     <script src="cipher.js"></script>

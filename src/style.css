@@ -1,0 +1,27 @@
+body {
+    font-family: 'Allerta', sans-serif;
+    margin: 25px 50px 75px 100px;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+
+}
+
+.initial {
+    
+}
+
+.cifrados {
+    align: center;
+}
+
+.botones {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
