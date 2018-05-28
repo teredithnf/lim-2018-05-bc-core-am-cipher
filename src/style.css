@@ -1,10 +1,12 @@
 body {
     font-family: 'Allerta', sans-serif;
-    margin: 25px 50px 75px 100px;
+    margin: 100px 100px 75px 100px;
     background: #90F1BD  ;
-    
-    
+    background: url(https://c.wallhere.com/photos/6a/fb/Wallrox-55264.png!d)
+}
 
+h1{
+    text: white;
 }
 
 .titulo {
