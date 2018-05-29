@@ -11,7 +11,7 @@
       <h1 class="titulo">Descifrados</h1>      
     </header>
 
-    <div id="bloque">
+    
     <section id="initial" class="initial">
       <div id="cifrados" class="cifrados" >
         <div>
@@ -23,20 +23,20 @@
         </div>
 
         <div>
-          <textarea id="desMensaje" name="desMensaje" rows="10" cols="50" placeholder="Descubre tu mensaje aqui ..." ></textarea>
-        </div>
-
+         <!-- <textarea id="desMensaje" name="desMensaje" rows="10" cols="50" placeholder="Descubre tu mensaje aqui ..." ></textarea>-->
       </div>
       <div id="botones" class="botones">
           <input id="btnCifrar" type="button" value="Cifrar">
           <input id="btnDescifrar" type="button" value="Descifrar">
-          <input id="btnLimpiar" type="button" value="Limpiar">    
+          <input id="btnLimpiar" type="button" value="Limpiar">  
       </div>
-    </div>
 
-    </section>
+      <div id="root">
+          <p id="desMensaje" place-holder="Tu respuesta aqui"></p>
+      </div>
       
-    <div id="root"></div>
+    </section>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
