@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Allerta', sans-serif;
     margin: 100px 100px 75px 100px;
@@ -5,10 +6,17 @@ body {
     background: url(https://c.wallhere.com/photos/6a/fb/Wallrox-55264.png!d)
 }
 
-h1{
-    text: white;
+
+.titulo{
+    color:white;
+    justify-content: center;
+   
 }
 
+/*.numeroSuerte{
+    justify-content: flex-end;
+}
+*/
 .titulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
