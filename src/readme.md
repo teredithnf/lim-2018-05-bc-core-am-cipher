@@ -21,7 +21,7 @@ Puedes descargar esta aplicacion con los siguientes pasos
 clona en git el siguiente repositorio haciendo
 git clone <https://teredithnf.github.io/lim-2018-05-bc-core-am-cipher/src>
 
-### Instalacion
+### Instalación
 Una vez clonado el repositorio 
 ingresar a la carpeta lim-2018-05-bc-core-am-cipher
 y ejecutar el siguiente comando npm install
