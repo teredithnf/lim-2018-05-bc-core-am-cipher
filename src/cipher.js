@@ -1,5 +1,5 @@
 window.cipher = {
-  // ... alert('aqui esta mi funcion de decode y encode')
+  // A
   encode: (offset, string) => {
     let mensajeCodificado = '';
       for (let indice = 0; indice < string.length; indice++) {

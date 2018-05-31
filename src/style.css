@@ -13,10 +13,6 @@ body {
    
 }
 
-/*.numeroSuerte{
-    justify-content: flex-end;
-}
-*/
 .titulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -26,14 +22,10 @@ body {
 
 }
 
-.initial {
+/*.initial {
     
 }
-
-.cifrados {
-    align: center;
-}
-
+*/
 .botones {
     color: white;
     border-radius: 4px;
