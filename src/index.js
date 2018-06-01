@@ -9,7 +9,7 @@ btnCifrar.addEventListener('click',() => {
 
 let btnDescifrar = document.getElementById('btnDescifrar');
 btnDescifrar.addEventListener('click',() => {
-    let offset = parseInt(document.getElementById("txtOffset").value);
+    let offset =parseInt(document.getElementById("txtOffset").value);
     let ingMensaje = document.getElementById("ingMensaje").value;
     let decode = cipher.decode(offset, ingMensaje);
     document.getElementById("desMensaje").innerHTML = decode;
