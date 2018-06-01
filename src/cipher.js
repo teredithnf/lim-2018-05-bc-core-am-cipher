@@ -2,7 +2,7 @@ window.cipher = {
   // funcion codificar
   encode: (offset, string) => {
     let mensajeCodificado = '';
-    /* for (let indice of string){*/
+     /*for (let indice of string){*/
      for (let indice = 0; indice < string.length; indice++) {
         let numeroAscii = string.toUpperCase().charCodeAt(indice); // de letra a numero
         if (numeroAscii === 32){
@@ -18,8 +18,8 @@ window.cipher = {
   },
   decode: (offset, string) => {
     let mensajeDescifrado = '';
-    for (let indice = 0; indice < string.length; indice++){
-      let codLetra = string.charCodeAt(indice);
+    for (let letra of string){
+      let codLetra = letra.charCodeAt();
       if(codLetra === 32){
       mensajeDescifrado += ' ';
       }else{
@@ -30,7 +30,7 @@ window.cipher = {
   }
     return mensajeDescifrado;
   },
-  createCipherWithOffset: function(){
+  createCipherWithOffset: () => {
     return;
   } 
 }

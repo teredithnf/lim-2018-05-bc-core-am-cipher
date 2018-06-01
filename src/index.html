@@ -10,21 +10,25 @@
     <header>
       <h1 class="titulo">Descifrados</h1>      
     </header>
-    <div class= "numeroSuerte">
-        <label for="numero">Tu n° de la suerte</label>
-        <input id="txtOffset" type="text" size="10" maxlength="2" value="" name="numero">
+    <section class ="borde">
+    <div id="numeroSuerte" class= "numeroSuerte">
+        <label class="numero a" for="numero">Digito:</label>
+        <input class="numero b" id="txtOffset" type="text" value="" name="numero">
     </div>
-    <div>
-      <textarea id="ingMensaje" name="ingMensaje" rows="10" cols="40" placeholder="Ingresa tu mensaje aqui ..." ></textarea>
+    <div class="contenedor">
+    <div id="mensaje" class="mensaje">
+      <textarea id="ingMensaje" name="ingMensaje" placeholder="Ingresa tu mensaje aqui ..." ></textarea>
     </div>
     <div id="botones" class="botones">
-      <input id="btnCifrar" type="button" value="Cifrar">
-      <input id="btnDescifrar" type="button" value="Descifrar">
-      <input id="btnLimpiar" type="button" value="Limpiar">  
+      <input class="boton btnCifrar" id="btnCifrar" type="button" value="Cifrar">
+      <input class="boton btnDescifrar" id="btnDescifrar" type="button" value="Descifrar">
+      <input class="boton btnLimpiar" id="btnLimpiar" type="button" value="Limpiar">  
     </div>
-    <div id="root">
+    </div>
+    <div id="root" class="root">
       <p id="desMensaje"></p>
     </div>
+  </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
