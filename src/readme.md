@@ -24,8 +24,6 @@ git clone <https://teredithnf.github.io/lim-2018-05-bc-core-am-cipher/src>
 ### Instalación
 Una vez clonado el repositorio 
 ingresar a la carpeta lim-2018-05-bc-core-am-cipher
-y ejecutar el siguiente comando npm install
+y ejecutar el siguiente comando npm installen la terminal.
 
 ### Ejecutar
-
-luego puedes medir la cobertura de los test con npm install

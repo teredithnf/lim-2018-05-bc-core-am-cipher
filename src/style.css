@@ -4,24 +4,59 @@ body {
     margin: 100px 100px 100px 100px;
     background: #90F1BD  ;
     background: url(https://c.wallhere.com/photos/6a/fb/Wallrox-55264.png!d);
+    margin-right: 20%;
 }
+
 .titulo {
-    /*justify-content:center;*/
     display: flex;
     width: 100%;
     color: white;
+    text-align: center;
 }
 
+.reseña {
+    color: #373A3B;
+    font-size: 20px;
+
+}
 .numeroSuerte {
     display: flex;
     width: 92%;
 }
 
-.numeroSuerte,.mensaje,.botones,.root {
-padding: 1%;
+.numero_b {
+    width : 50px;
+    height: 15PX;
+    font-family: 'Allerta', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+
 }
 
-.botones,.mensaje{
+.numeroSuerte,.mensaje,.botones {
+    padding: 1%;
+}
+
+.numero_a {
+    width: 8%;
+}
+
+.root {
+    width: 300px;
+    height: 200px;
+    margin-left: 3%;
+    display :inline-block;
+    /*color: #373A3B;*/
+    font-size: 18px;
+}
+
+
+#desMensaje{
+    color: #373A3B;
+}
+    
+
+.botones,.mensaje,.root {
     float: left;
     align-items: center;
 }
@@ -37,24 +72,17 @@ padding: 1%;
      height: 100%;
      border-radius: 6px;
      font-size: 80%;
- }
+}
 
- .numero {
-     padding-right: 0.7%;
-     border-radius: 6px;
-     height: 10%;
-     width: 5%;
- }
 
- #ingMensaje {
+#ingMensaje {
     border-radius: 6px;
-    width: 500px;
-    height: 200px;
- }
+    width: 400px;
+    height: 100px;
+    font-size: 15px;
+}
 
- .borde {
-     border: 3px double;
+.borde {
+     border: 1px double;
      color:white;
- }
-
-
+}

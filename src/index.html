@@ -4,31 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caesar Cipher</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1 class="titulo">Descifrados</h1>      
+      <h1 class="titulo">Descifra2</h1>
+      <p class="reseña">¿Tienes una fiesta sorpresa?. 
+        Tenemos el recurso ideal para mantener tus mensajes en secreto y poder lograr la planificación de la fiesta 
+        soñada. Es muy sencillo solamente coloca tu mensaje y elige un numero clave luego elije la opción cifrar o descifrar 
+        y listo.
+      </p>      
     </header>
     <section class ="borde">
-    <div id="numeroSuerte" class= "numeroSuerte">
-        <label class="numero a" for="numero">Digito:</label>
-        <input class="numero b" id="txtOffset" type="text" value="" name="numero">
-    </div>
-    <div class="contenedor">
-    <div id="mensaje" class="mensaje">
-      <textarea id="ingMensaje" name="ingMensaje" placeholder="Ingresa tu mensaje aqui ..." ></textarea>
-    </div>
-    <div id="botones" class="botones">
-      <input class="boton btnCifrar" id="btnCifrar" type="button" value="Cifrar">
-      <input class="boton btnDescifrar" id="btnDescifrar" type="button" value="Descifrar">
-      <input class="boton btnLimpiar" id="btnLimpiar" type="button" value="Limpiar">  
-    </div>
-    </div>
-    <div id="root" class="root">
-      <p id="desMensaje"></p>
-    </div>
-  </section>
+      <div id="numeroSuerte" class= "numeroSuerte">
+        <label class="numero_a" for="numero">Nº clave</label>
+        <input class="numero_b" id="txtOffset" type="number" value="" name="numero">
+      </div>
+      <div class="contenedor">
+        <div id="mensaje" class="mensaje">
+          <textarea id="ingMensaje" name="ingMensaje" placeholder="Ingresa tu mensaje aqui ..." ></textarea>
+        </div>
+        <div id="botones" class="botones">
+          <input class="boton btnCifrar" id="btnCifrar" type="button" value="Cifrar">
+          <input class="boton btnDescifrar" id="btnDescifrar" type="button" value="Descifrar">
+          <input class="boton btnLimpiar" id="btnLimpiar" type="button" value="Limpiar">  
+        </div>
+        <div id="root" class="root">
+          <p class="indicación">Aquí se mostrara tu mensaje:</p>
+          <p id="desMensaje"></p>
+        </div>
+      </div>
+    </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

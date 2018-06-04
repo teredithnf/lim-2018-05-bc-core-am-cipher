@@ -2,9 +2,8 @@ window.cipher = {
   // funcion codificar
   encode: (offset, string) => {
     let mensajeCodificado = '';
-     /*for (let indice of string){*/
-     for (let indice = 0; indice < string.length; indice++) {
-        let numeroAscii = string.toUpperCase().charCodeAt(indice); // de letra a numero
+     for (let letra of string){
+        let numeroAscii = letra.toUpperCase().charCodeAt(); // de letra a numero
         if (numeroAscii === 32){
         mensajeCodificado += ' ' ;
         } else {
@@ -16,6 +15,7 @@ window.cipher = {
       }
     return mensajeCodificado;
   },
+  // funcion decodificar
   decode: (offset, string) => {
     let mensajeDescifrado = '';
     for (let letra of string){
