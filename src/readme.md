@@ -27,3 +27,6 @@ ingresar a la carpeta lim-2018-05-bc-core-am-cipher
 y ejecutar el siguiente comando npm installen la terminal.
 
 ### Ejecutar
+Primero ingresar el numero clave para encriptar o desencriptar el mensaje, luego ingresar
+el mensaje de texto a cifrar; seguidamente escoge si deseas la opcion cifrar y descifrar y dale click;
+y listo en la casilla derecha se mostrara tu mensaje.
